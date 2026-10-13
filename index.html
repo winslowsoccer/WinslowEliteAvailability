@@ -3,72 +3,72 @@
   <head>
     <meta charset="utf-8" />
     <script type="text/javascript">
-      window._currentDevice = &#39;desktop&#39;;
+      window._currentDevice = 'desktop';
     window.Parameters = window.Parameters || {
-        HomeUrl: &#39;https://wtysa.teamsnap.site/&#39;,
+        HomeUrl: 'https://wtysa.teamsnap.site/',
 
-        SystemID: &#39;US_DIRECT_PRODUCTION&#39;,
-        SiteAlias: &#39;93bdc31b&#39;,
-        SiteType: atob(&#39;RFVEQU9ORQ==&#39;),
-        PublicationDate: &#39;Aug 23, 2026&#39;,
-        ExternalUid: &#39;019df579-b6ff-710f-aa54-665dcd9a66eb&#39;,
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '93bdc31b',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Aug 23, 2026',
+        ExternalUid: '019df579-b6ff-710f-aa54-665dcd9a66eb',
         IsSiteMultilingual: false,
-        InitialPostAlias: &#39;&#39;,
-        InitialPostPageUuid: &#39;&#39;,
-        InitialDynamicItem: &#39;&#39;,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
         DynamicPageInfo: {
             isDynamicPage: false,
-            base64JsonRowData: &#39;null&#39;,
+            base64JsonRowData: 'null',
         },
-        InitialPageAlias: &#39;sparks-availability&#39;,
-        InitialPageUuid: &#39;6246f6cbe7b74d8982831baa9ea7e244&#39;,
-        InitialPageId: &#39;48474378&#39;,
-        InitialEncodedPageAlias: &#39;c3BhcmtzLWF2YWlsYWJpbGl0eQ==&#39;,
-        InitialHeaderUuid: &#39;0deebc9b7c8541ceb1d0d1d817280a8b&#39;,
-        CurrentPageUrl: &#39;&#39;,
+        InitialPageAlias: 'sparks-availability',
+        InitialPageUuid: '6246f6cbe7b74d8982831baa9ea7e244',
+        InitialPageId: '48474378',
+        InitialEncodedPageAlias: 'c3BhcmtzLWF2YWlsYWJpbGl0eQ==',
+        InitialHeaderUuid: '0deebc9b7c8541ceb1d0d1d817280a8b',
+        CurrentPageUrl: '',
         IsCurrentHomePage: false,
-        ThemeVersion: &#39;500000&#39;,
-        DefaultPageAlias: &#39;&#39;,
+        ThemeVersion: '500000',
+        DefaultPageAlias: '',
         RemoveDID: true,
         WidgetStyleID: null,
         IsHeaderFixed: false,
         IsHeaderSkinny: false,
-        StorePagesUrls: &#39;e30=&#39;,
-        IsNewStore: &#39;false&#39;,
-        StorePath: &#39;&#39;,
-        StoreId: &#39;null&#39;,
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
         StoreVersion: 0,
-        StoreBaseUrl: &#39;&#39;,
+        StoreBaseUrl: '',
         StoreCleanUrl: true,
         StoreDisableScrolling: true,
         IsStoreSuspended: false,
         showCookieNotification: false,
-        cookiesNotificationMarkup: &#39;null&#39;,
-        translatedPageUrl: &#39;&#39;,
-        sidebarPosition: &#39;NA&#39;,
-        currentLanguage: &#39;en&#39;,
-        currentLocale: &#39;en&#39;,
-        NavItems: &#39;{}&#39;,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
         
         mapConsent: {
-            message: &#39;This content is served by a third party, {0}. If enabled, {0} may collect information about your activity.&#39;,
-            enable: &#39;Enable&#39;
+            message: 'This content is served by a third party, {0}. If enabled, {0} may collect information about your activity.',
+            enable: 'Enable'
         },
         NavigationAreaParams: {
             ShowBackToHomeOnInnerPages: true,
             NavbarSize: -1,
-            NavbarLiveHomePage: &#39;https://wtysa.teamsnap.site/&#39;,
-            NavbarSelector: &#39;#dmNav:has(a)&#39;,
-            SubNavbarSelector: &#39;#subnav_main&#39;
+            NavbarLiveHomePage: 'https://wtysa.teamsnap.site/',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
         },
-        planID: &#39;7&#39;,
+        planID: '7',
         disableTracking: false,
-        pageType: &#39;FROM_SCRATCH&#39;,
+        pageType: 'FROM_SCRATCH',
         isRuntimeServer: true,
         isInEditor: false,
         isInPreview: false,
         hasNativeStore: false,
-        defaultLang: &#39;en&#39;,
+        defaultLang: 'en',
         hamburgerMigration: null,
         isFlexSite: true
     };
@@ -99,7 +99,7 @@
     <link rel="preconnect" href="https://irp.cdn-website.com" crossorigin="" />
     <link rel="preconnect" href="https://static.cdn-website.com" />
     <script id="d-js-dmapi">
-      window.SystemID = &#39;US_DIRECT_PRODUCTION&#39;;
+      window.SystemID = 'US_DIRECT_PRODUCTION';
 
     if (!window.dmAPI) {
         window.dmAPI = {
@@ -108,12 +108,12 @@
             getCurrentDeviceType: function () {
                 return window._currentDevice;
             },
-            runOnReady: (ns, fn) =&gt; {
+            runOnReady: (ns, fn) => {
                 const safeFn = dmAPI.toSafeFn(fn);
-                ns = ns || &#39;global_&#39; + Math.random().toString(36).slice(2, 11);
-                const eventName = &#39;afterAjax.&#39; + ns;
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
 
-                if (document.readyState === &#39;complete&#39;) {
+                if (document.readyState === 'complete') {
                     $.DM.events.off(eventName).on(eventName, safeFn);
                     setTimeout(function () {
                         safeFn({
@@ -121,7 +121,7 @@
                         });
                     }, 0);
                 } else {
-                    window?.waitForDeferred?.(&#39;dmAjax&#39;, () =&gt; {
+                    window?.waitForDeferred?.('dmAjax', () => {
                         $.DM.events.off(eventName).on(eventName, safeFn);
                         safeFn({
                             isAjax: false,
@@ -129,7 +129,7 @@
                     });
                 }
             },
-            toSafeFn: (fn) =&gt; {
+            toSafeFn: (fn) => {
                 if (fn?.safe) {
                     return fn;
                 }
@@ -137,7 +137,7 @@
                     try {
                         return fn?.apply(null, args);
                     } catch (e) {
-                        console.log(&#39;function failed &#39; + e.message);
+                        console.log('function failed ' + e.message);
                     }
                 };
                 safeFn.safe = true;
@@ -154,8 +154,8 @@
     </script>
     <script id="d-js-load-css">
       /**
- * There are a few &lt;link&gt; tags with CSS resource in them that are preloaded in the page
- * in each of those there is a &#34;onload&#34; handler which invokes the loadCSS callback
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
  * defined here.
  * We are monitoring 3 main CSS files - the runtime, the global and the page.
  * When each load we check to see if we can append them all in a batch. If threre
@@ -165,15 +165,15 @@
   let cssLinks = {};
   function loadCssLink(link) {
     link.onload = null;
-    link.rel = &#34;stylesheet&#34;;
-    link.type = &#34;text/css&#34;;
+    link.rel = "stylesheet";
+    link.type = "text/css";
   }
   
     function checkCss() {
-      const pageCssLink = document.querySelector(&#34;[id*=&#39;CssLink&#39;]&#34;);
-      const widgetCssLink = document.querySelector(&#34;[id*=&#39;widgetCSS&#39;]&#34;);
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
 
-        if (cssLinks &amp;&amp; cssLinks.runtime &amp;&amp; cssLinks.global &amp;&amp; (!pageCssLink || cssLinks.page) &amp;&amp; (!widgetCssLink || cssLinks.widget)) {
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
             const storedRuntimeCssLink = cssLinks.runtime;
             const storedPageCssLink = cssLinks.page;
             const storedGlobalCssLink = cssLinks.global;
@@ -195,8 +195,8 @@
             storedRuntimeCssLink.disabled = true;
             loadCssLink(storedRuntimeCssLink);
 
-            requestAnimationFrame(() =&gt; {
-                setTimeout(() =&gt; {
+            requestAnimationFrame(() => {
+                setTimeout(() => {
                     storedRuntimeCssLink.disabled = false;
                     storedGlobalCssLink.disabled = false;
                     if (storedPageCssLink) {
@@ -205,10 +205,10 @@
                     if (storedWidgetCssLink) {
                       storedWidgetCssLink.disabled = false;
                     }
-                    // (SUP-4179) Clear the accumulated cssLinks only when we&#39;re
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
                     // sure that the document has finished loading and the document 
                     // has been parsed.
-                    if(document.readyState === &#39;interactive&#39;) {
+                    if(document.readyState === 'interactive') {
                       cssLinks = null;
                     }
                 }, 0);
@@ -220,24 +220,24 @@
   function loadCSS(link) {
     try {
       var urlParams = new URLSearchParams(window.location.search);
-      var noCSS = !!urlParams.get(&#34;nocss&#34;);
-      var cssTimeout = urlParams.get(&#34;cssTimeout&#34;) || 0;
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
 
       if (noCSS) {
         return;
       }
-      if (link.href &amp;&amp; link.href.includes(&#34;d-css-runtime&#34;)) {
+      if (link.href && link.href.includes("d-css-runtime")) {
         cssLinks.runtime = link;
         checkCss();
-      } else if (link.id === &#34;siteGlobalCss&#34;) {
+      } else if (link.id === "siteGlobalCss") {
         cssLinks.global = link;
         checkCss();
       } 
       
-      else if (link.id &amp;&amp; link.id.includes(&#34;CssLink&#34;)) {
+      else if (link.id && link.id.includes("CssLink")) {
         cssLinks.page = link;
         checkCss();
-      } else if (link.id &amp;&amp; link.id.includes(&#34;widgetCSS&#34;)) {
+      } else if (link.id && link.id.includes("widgetCSS")) {
         cssLinks.widget = link;
         checkCss();
       }
@@ -257,7 +257,7 @@
 })();
     </script>
     <script data-role="deferred-init" type="text/javascript">
-      /* usage: window.getDeferred(&lt;deferred name&gt;).resolve() or window.getDeferred(&lt;deferred name&gt;).promise.then(...)*/
+      /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
     function Def() {
         this.promise = new Promise((function (a, b) {
             this.resolve = a, this.reject = b
@@ -266,16 +266,16 @@
 
     const defs = {};
     window.getDeferred = function (a) {
-        return null == defs[a] &amp;&amp; (defs[a] = new Def), defs[a]
+        return null == defs[a] && (defs[a] = new Def), defs[a]
     }
     window.waitForDeferred = function (b, a, c) {
         let d = window?.getDeferred?.(b);
         d
             ? d.promise.then(a)
-            : c &amp;&amp; [&#34;complete&#34;, &#34;interactive&#34;].includes(document.readyState)
+            : c && ["complete", "interactive"].includes(document.readyState)
                 ? setTimeout(a, 1)
                 : c
-                    ? document.addEventListener(&#34;DOMContentLoaded&#34;, a)
+                    ? document.addEventListener("DOMContentLoaded", a)
                     : console.error(`Deferred  does not exist`);
     };
     </script>
@@ -303,7 +303,7 @@
 }
     </style>
     <style>
-      body[data-page-alias=&#34;sparks-availability&#34;] #dm [data-show-on-page-only=&#34;sparks-availability&#34;] {
+      body[data-page-alias="sparks-availability"] #dm [data-show-on-page-only="sparks-availability"] {
     display: block !important;
   }
     </style>
@@ -374,7 +374,7 @@
     <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-common-flex-header-0deebc9b7c8541ceb1d0d1d817280a8b">
       @media all {
     
-#flex-header[data-changeable-on-scroll][data-scrolling] [data-widget-type=&#34;image&#34;] img {
+#flex-header[data-changeable-on-scroll][data-scrolling] [data-widget-type="image"] img {
     width: 75%;
 }
 #flex-header {
@@ -1233,13 +1233,13 @@
     window.customWidgetsFunctions = {};
     window.customWidgetsStrings = {};
     window.collections = {};
-    window.currentLanguage = &#34;ENGLISH&#34;
+    window.currentLanguage = "ENGLISH"
     window.isSitePreview = false;
     </script>
     <script type="text/javascript">
-      var d_version = &#34;production_6846&#34;;
-    var build = &#34;2026-10-12T12_52_08&#34;;
-    window[&#39;v&#39; + &#39;ersion&#39;] = d_version;
+      var d_version = "production_6846";
+    var build = "2026-10-12T12_52_08";
+    window['v' + 'ersion'] = d_version;
 
     function buildEditorParent() {
         window.isMultiScreen = true;
@@ -1247,7 +1247,7 @@
         window.previewParent = {};
         try {
             var _p = window.parent;
-            if (_p &amp;&amp; _p.document &amp;&amp; _p.$ &amp;&amp; _p.$.dmfw) {
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
                 window.editorParent = _p;
             } else if (_p.isSitePreview) {
                 window.previewParent = _p;
@@ -1262,95 +1262,95 @@
     <!-- Injecting site-wide before scripts -->
     <!-- End Injecting site-wide to the head -->
     <script>
-      window.cookiesNotificationMarkupPreview = &#39;null&#39;;
+      window.cookiesNotificationMarkupPreview = 'null';
     </script>
     <script id="d-js-params">
       window.INSITE = window.INSITE || {};
-    window.INSITE.device = &#34;desktop&#34;;
+    window.INSITE.device = "desktop";
 
     window.rtCommonProps = {};
-    rtCommonProps[&#34;runtimecollector.url&#34;] = &#39;https://rtc.multiscreensite.com&#39;;
-    rtCommonProps[&#34;performance.tabletPreview.removeScroll&#34;] = &#39;false&#39;;
-    rtCommonProps[&#34;inlineEditGrid.snap&#34;] =true;
-    rtCommonProps[&#34;popup.insite.cookie.ttl&#34;] = &#39;0.5&#39;;
-    rtCommonProps[&#34;common.mapbox.token&#34;] = &#39;pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw&#39;;
-    rtCommonProps[&#34;common.mapbox.js.override&#34;] =false;
-    rtCommonProps[&#34;common.here.appId&#34;] = &#39;iYvDjIQ2quyEu0rg0hLo&#39;;
-    rtCommonProps[&#34;common.here.appCode&#34;] = &#39;1hcIxLJcbybmtBYTD9Z1UA&#39;;
-    rtCommonProps[&#34;ecommerce.ecwid.script&#34;] = &#39;https://app.multiscreenstore.com/script.js&#39;;
-    rtCommonProps[&#34;common.build.dist.folder&#34;] = &#39;production/6846&#39;;
-    rtCommonProps[&#34;common.resources.cdn.host&#34;] = &#39;https://static.cdn-website.com&#39;;
-    rtCommonProps[&#34;common.resources.folder&#34;] = &#39;https://static.cdn-website.com/mnlt/production/6846&#39;;
-    rtCommonProps[&#34;common.fonts.api.v2.url&#34;] = &#39;https://irp.cdn-website.com/fonts/css2?family=&#39;;
-    rtCommonProps[&#34;feature.flag.runtime.backgroundSlider.preload.slowly&#34;] =true;
-    rtCommonProps[&#34;feature.flag.runtime.newAnimation.jitAnimation.enabled&#34;] =true;
-    rtCommonProps[&#34;feature.flag.sites.google.analytics.gtag&#34;] =true;
-    rtCommonProps[&#34;feature.flag.runOnReadyNewTask&#34;] =true;
-    rtCommonProps[&#34;isAutomation.test&#34;] =false;
-    rtCommonProps[&#34;booking.cal.api.domain&#34;] = &#39;api.cal.com&#39;;
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["common.build.dist.folder"] = 'production/6846';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/6846';
+    rtCommonProps["common.fonts.api.v2.url"] = 'https://irp.cdn-website.com/fonts/css2?family=';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["booking.cal.api.domain"] = 'api.cal.com';
 
     
-    rtCommonProps[&#39;common.mapsProvider&#39;] = &#39;mapbox&#39;;
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
     
-    rtCommonProps[&#39;common.mapsProvider.version&#39;] = &#39;0.52.0&#39;;
-    rtCommonProps[&#39;common.geocodeProvider&#39;] = &#39;mapbox&#39;;
-    rtCommonProps[&#39;server.for.resources&#39;] = &#39;&#39;;
-    rtCommonProps[&#39;feature.flag.lazy.widgets&#39;] = true;
-    rtCommonProps[&#39;feature.flag.single.wow&#39;] = false;
-    rtCommonProps[&#39;feature.flag.disallowPopupsInEditor&#39;] = true;
-    rtCommonProps[&#39;feature.flag.mark.anchors&#39;] = true;
-    rtCommonProps[&#39;captcha.public.key&#39;] = &#39;6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz&#39;;
-    rtCommonProps[&#39;captcha.invisible.public.key&#39;] = &#39;6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME&#39;;
-    rtCommonProps[&#34;images.sizes.small&#34;] =160;
-    rtCommonProps[&#34;images.sizes.mobile&#34;] =640;
-    rtCommonProps[&#34;images.sizes.tablet&#34;] =1280;
-    rtCommonProps[&#34;images.sizes.desktop&#34;] =1920;
-    rtCommonProps[&#34;import.images.storage.imageCDN&#34;] = &#39;https://irp.cdn-website.com/&#39;;
-    rtCommonProps[&#34;feature.flag.performance.logs&#34;] =false;
-    rtCommonProps[&#34;site.widget.form.captcha.type&#34;] = &#39;g_recaptcha&#39;;
-    rtCommonProps[&#34;friendly.captcha.site.key&#34;] = &#39;FCMGSQG9GVNMFS8K&#39;;
-    rtCommonProps[&#34;cookiebot.mapbox.consent.category&#34;] = &#39;marketing&#39;;
-    rtCommonProps[&#34;termly.mapbox.consent.category&#34;] = &#39;performance&#39;;
-    // feature flags that&#39;s used out of runtime module (in  legacy files)
-    rtCommonProps[&#34;platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled&#34;] =true;
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://irp.cdn-website.com/';
+    rtCommonProps["feature.flag.performance.logs"] =false;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["termly.mapbox.consent.category"] = 'performance';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
 
     window.rtFlags = {};
-    rtFlags[&#34;unsuspendEcwidStoreOnRuntime.enabled&#34;] =true;
-    rtFlags[&#34;scripts.widgetCount.enabled&#34;] =true;
-    rtFlags[&#34;fnb.animations.tracking.enabled&#34;] =true;
-    rtFlags[&#34;ecom.ecwidNewUrlStructure.enabled&#34;] = false;
-    rtFlags[&#34;ecom.ecwid.accountPage.repeatOrderRedirect.enabled&#34;] = false;
-    rtFlags[&#34;ecom.ecwid.storefrontV3.enabled&#34;] = false;
-    rtFlags[&#34;ecom.monolith.legacy.js.api.disabled.for.new.sites&#34;] = false;
-    rtFlags[&#34;geocode.search.localize&#34;] =false;
-    rtFlags[&#34;feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled&#34;] =false;
-    rtFlags[&#34;twitter.heightLimit.enabled&#34;] = true;
-    rtFlags[&#34;streamline.monolith.personalization.supportMultipleConditions.enabled&#34;] =false;
-    rtFlags[&#34;flex.animation.design.panel.layout&#34;] =true;
-    rtFlags[&#34;runtime.cwv.report.cls.enabled&#34;] =false;
-    rtFlags[&#34;runtime.cwv.report.lcp.enabled&#34;] =false;
-    rtFlags[&#34;runtime.lcp.preload.selfheal.enabled&#34;] =true;
-    rtFlags[&#34;runtime.lcp.preload.bootstrap.enabled&#34;] =true;
-    rtFlags[&#34;runtime.lcp.preload.monitor.enabled&#34;] =false;
-    rtFlags[&#34;runtime.customwidget.heightpin.enabled&#34;] =true;
-    rtFlags[&#34;runtime.customwidget.config.compare.enabled&#34;] =true;
-    rtFlags[&#34;runtime.video.widget.lazy.enabled&#34;] =true;
-    rtFlags[&#34;contact.form.useActiveForm&#34;] =true;
-    rtFlags[&#34;runtime.ssr.productStore.internal.observer&#34;] =true;
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.repeatOrderRedirect.enabled"] = false;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.monolith.legacy.js.api.disabled.for.new.sites"] = false;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["flex.animation.design.panel.layout"] =true;
+    rtFlags["runtime.cwv.report.cls.enabled"] =false;
+    rtFlags["runtime.cwv.report.lcp.enabled"] =false;
+    rtFlags["runtime.lcp.preload.selfheal.enabled"] =true;
+    rtFlags["runtime.lcp.preload.bootstrap.enabled"] =true;
+    rtFlags["runtime.lcp.preload.monitor.enabled"] =false;
+    rtFlags["runtime.customwidget.heightpin.enabled"] =true;
+    rtFlags["runtime.customwidget.config.compare.enabled"] =true;
+    rtFlags["runtime.video.widget.lazy.enabled"] =true;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
     </script>
     <script src="https://static.cdn-website.com/mnlt/production/6846/_dm/s/rt/dist/scripts/d-js-runtime-flex-package.min.js" id="d-js-core" defer="">
     </script>
     <script>
-      document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt;
+      document.addEventListener('DOMContentLoaded', () =>
         window.runtime.initLayout()
     );
     </script>
     <style id="hideAnimFix">
-      .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop=&#39;none&#39;]), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+      .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
     visibility: hidden;
   }
 
-  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop=&#39;none&#39;]), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
     visibility: hidden !important;
   }
 
@@ -1360,36 +1360,36 @@
     </style>
     <style id="fontFallbacks">
       @font-face {
-  font-family: &#34;Roboto Fallback&#34;;
-  src: local(&#39;Arial&#39;);
+  font-family: "Roboto Fallback";
+  src: local('Arial');
   ascent-override: 92.6709%;
   descent-override: 24.3871%;
   size-adjust: 100.1106%;
   line-gap-override: 0%;
  }@font-face {
-  font-family: &#34;Sulphur Point Fallback&#34;;
-  src: local(&#39;Arial&#39;);
+  font-family: "Sulphur Point Fallback";
+  src: local('Arial');
   ascent-override: 73.4128%;
   descent-override: 19.5148%;
   size-adjust: 107.6106%;
   line-gap-override: 0%;
  }@font-face {
-  font-family: &#34;Poppins Fallback&#34;;
-  src: local(&#39;Arial&#39;);
+  font-family: "Poppins Fallback";
+  src: local('Arial');
   ascent-override: 92.326%;
   descent-override: 30.7753%;
   line-gap-override: 8.793%;
   size-adjust: 113.7274%;
 }@font-face {
-  font-family: &#34;Oswald Fallback&#34;;
-  src: local(&#39;Arial&#39;);
+  font-family: "Oswald Fallback";
+  src: local('Arial');
   ascent-override: 145.0682%;
   descent-override: 35.1423%;
   size-adjust: 82.2372%;
   line-gap-override: 0%;
  }@font-face {
-  font-family: &#34;DM Sans Fallback&#34;;
-  src: local(&#39;Arial&#39;);
+  font-family: "DM Sans Fallback";
+  src: local('Arial');
   ascent-override: 94.3696%;
   descent-override: 29.4905%;
   size-adjust: 105.1186%;
@@ -1435,19 +1435,19 @@
                                     <div class="align-center text-align-center u_1252484684 dmSocialHub gapSpacing" id="1252484684" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords="">
                                       <div class="socialHubWrapper">
                                         <div class="socialHubInnerDiv " data-auto="social-hub-inner">
-                                          <a aria-label="facebook" dm_dont_rewrite_url="true" href="https://facebook.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Facebook&#39;)" target="_blank">                                          <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="facebook" dm_dont_rewrite_url="true" href="https://facebook.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Facebook')" target="_blank">                                          <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
-                                          <a aria-label="twitter" dm_dont_rewrite_url="true" href="https://twitter.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Twitter&#39;)" target="_blank">                                          <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="twitter" dm_dont_rewrite_url="true" href="https://twitter.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Twitter')" target="_blank">                                          <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
-                                          <a aria-label="instagram" dm_dont_rewrite_url="true" href="https://instagram.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Instagram&#39;)" target="_blank">                                          <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="instagram" dm_dont_rewrite_url="true" href="https://instagram.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Instagram')" target="_blank">                                          <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
-                                          <a aria-label="youtube" dm_dont_rewrite_url="true" href="https://youtube.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Youtube&#39;)" target="_blank">                                          <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="youtube" dm_dont_rewrite_url="true" href="https://youtube.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Youtube')" target="_blank">                                          <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
-                                          <a aria-label="linkedin" dm_dont_rewrite_url="true" href="https://linkedin.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Linkedin&#39;)" target="_blank">                                          <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="linkedin" dm_dont_rewrite_url="true" href="https://linkedin.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Linkedin')" target="_blank">                                          <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
-                                          <a aria-label="email" dm_dont_rewrite_url="true" href="mailto:youremail@email.com" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Email&#39;)">                                          <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="email" dm_dont_rewrite_url="true" href="mailto:youremail@email.com" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Email')">                                          <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
-                                          <a aria-label="whatsapp" dm_dont_rewrite_url="true" href="https://wa.me/(000) 000-0000" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Whatsapp&#39;)" target="_blank">                                          <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
+                                          <a aria-label="whatsapp" dm_dont_rewrite_url="true" href="https://wa.me/(000) 000-0000" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Whatsapp')" target="_blank">                                          <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span>
 </a>
                                         </div>
                                       </div>
@@ -1660,1298 +1660,4 @@
 </a>
                                             </li>
                                             <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1">
-                                              <a class="unifiednav__item unav-item   dmUDNavigationItem_010101955152  " data-target-page-alias="" href="/volleyball" target="">                                              <span class="nav-item-text " data-link-text="Volleyball" data-auto="page-text-style">                                              Volleyball
-                                              <span class="icon icon-angle-right"></span>
-</span>
-</a>
-                                            </li>
-                                          </ul>
-                                        </li>
-                                        <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0">
-                                          <a class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101938656  " data-target-page-alias="" href="/facilities" target="">                                          <span class="nav-item-text " data-link-text="Facilities" data-auto="page-text-style">                                          Facilities
-                                          <span class="icon icon-angle-down"></span>
-</span>
-</a>
-                                        </li>
-                                        <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0">
-                                          <a class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101594017  " data-target-page-alias="" href="/news" target="">                                          <span class="nav-item-text " data-link-text="News" data-auto="page-text-style">                                          News
-                                          <span class="icon icon-angle-down"></span>
-</span>
-</a>
-                                        </li>
-                                        <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0">
-                                          <a class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101554211  " data-target-page-alias="" href="/schedule" target="">                                          <span class="nav-item-text " data-link-text="Schedule" data-auto="page-text-style">                                          Schedule
-                                          <span class="icon icon-angle-down"></span>
-</span>
-</a>
-                                        </li>
-                                        <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0">
-                                          <a class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101875640  " data-target-page-alias="" href="/registration" target="">                                          <span class="nav-item-text " data-link-text="Registration" data-auto="page-text-style">                                          Registration
-                                          <span class="icon icon-angle-down"></span>
-</span>
-</a>
-                                        </li>
-                                        <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0">
-                                          <a class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101578515  " data-target-page-alias="" href="/empty" target="">                                          <span class="nav-item-text " data-link-text="Empty" data-auto="page-text-style">                                          Empty
-                                          <span class="icon icon-angle-down"></span>
-</span>
-</a>
-                                        </li>
-                                        <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0">
-                                          <a class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101124818  " data-target-page-alias="" href="/sparks-availability-report" target="">                                          <span class="nav-item-text " data-link-text="Sparks Availability Report" data-auto="page-text-style">                                          Sparks Availability Report
-                                          <span class="icon icon-angle-down"></span>
-</span>
-</a>
-                                        </li>
-                                      </ul>
-                                    </nav>
-                                  </div>
-                                  <div id="0d90f7cf" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1969722470">
-                                    <div class="imageWidget align-center u_1969722470" data-element-type="image" data-widget-type="image" id="1969722470" data-binding="">
-                                      <a href="/" id="1941835162">                                      <img src="https://irp.cdn-website.com/93bdc31b/dms3rep/multi/opt/logo-14e9a7f6-1920w.png" alt="" id="1572573197" class="" data-dm-image-path="https://irp.cdn-website.com/93bdc31b/dms3rep/multi/logo-14e9a7f6.png" width="414" height="415" onerror="handleImageLoadError(this)" />
-</a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
-                        </div>
-                        <div data-auto="flex-section" id="1029527021" data-flex-id="6406026c90e1521f6ecb0eca" data-layout-section="">
-                          <div class="flex-widgets-container" id="1659590659">
-                          </div>
-                          <section id="6406026c90e1521f6ecb0ec9" class="flex-element section" data-auto="flex-element-section">
-                            <div id="6406026c90e1521f6ecb0ecb" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="">
-                              <div id="6406026c90e1521f6ecb0ecc" class="flex-element group" data-auto="flex-element-group">
-                                <div id="6406026c90e1521f6ecb0ecd" class="flex-element group" data-auto="flex-element-group">
-                                </div>
-                              </div>
-                            </div>
-                          </section>
-                        </div>
-                      </div>
-                      <div class="layout-drawer-overlay" id="layout-drawer-overlay">
-                      </div>
-                    </div>
-                    <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_sparks-availability dm-home-page" themewaschanged="true">
-                      <div id="allWrapper" class="allWrapper" data-auto="all-wrapper">
-                        <!-- navigation placeholders -->
-                        <div id="dm_content" class="dmContent" role="main">
-                          <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098">
-                            <div data-auto="flex-section" id="1641784833" data-flex-id="63d24979f4a54e38542a8ab9" data-layout-section="">
-                              <div class="flex-widgets-container" id="1835502329">
-                              </div>
-                              <section id="63d24979f4a54e38542a8aba" class="flex-element section" data-auto="flex-element-section">
-                                <div id="63d24979f4a54e38542a8abe" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="">
-                                  <div id="63d24979f4a54e38542a8abc" class="flex-element group" data-auto="flex-element-group">
-                                    <div id="63d24979f4a54e38542a8abd" class="flex-element group" data-auto="flex-element-group">
-                                      <div id="widget_1vq" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="html" data-external-id="3436004748">
-                                        <div data-element-type="html" class="dmCustomHtml" id="3436004748">
-                                          <style>
-                                            #soccer-app-wrapper {
-    --bg-dark: #0f172a;
-    --card-bg: #1e293b;
-    --card-border: #334155;
-    --accent-green: #10b981;
-    --accent-green-hover: #059669;
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --slot-bg: #0f172a;
-    --slot-border: #334155;
-    --font: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, Roboto, Helvetica, Arial, sans-serif;
-    background-color: var(--bg-dark);
-    color: var(--text-main);
-    font-family: var(--font);
-    padding: 24px 16px;
-    border-radius: 16px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  #soccer-app-wrapper * { box-sizing: border-box; margin: 0; padding: 0; }
-  #soccer-app-wrapper header {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
-    border: 1px solid var(--card-border);
-    border-radius: 16px;
-    padding: 20px 24px;
-    margin-bottom: 24px;
-  }
-  #soccer-app-wrapper h1 { 
-    font-size: 2.2rem !important; 
-    font-weight: 700 !important; 
-    color: var(--text-main) !important; 
-    margin: 0 !important; 
-    line-height: 1.25 !important;
-  }
-  @media screen and (max-width: 480px) {
-    #soccer-app-wrapper header {
-      padding: 16px;
-    }
-    #soccer-app-wrapper h1 { 
-      font-size: 1.15rem !important; 
-    }
-  }
-  #soccer-app-wrapper p { 
-    font-size: 0.9rem; 
-    color: var(--text-muted); 
-    margin-top: 8px; 
-  }
-  #soccer-app-wrapper .panel {
-    background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 16px;
-    padding: 24px;
-    margin-bottom: 24px;
-  }
-  #soccer-app-wrapper .form-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 16px;
-  }
-  #soccer-app-wrapper label {
-    display: block; font-size: 0.85rem; font-weight: 600;
-    text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px;
-  }
-  #soccer-app-wrapper select {
-    width: 100%; padding: 12px 16px;
-    background-color: var(--bg-dark);
-    border: 1px solid var(--card-border);
-    border-radius: 8px; color: var(--text-main);
-    font-size: 0.95rem; outline: none;
-  }
-  #soccer-app-wrapper .quick-actions {
-    display: flex; flex-wrap: wrap; gap: 8px;
-    margin-top: 16px; padding-top: 16px;
-    border-top: 1px solid var(--card-border);
-  }
-  #soccer-app-wrapper .btn-quick {
-    background-color: var(--bg-dark);
-    border: 1px solid var(--card-border);
-    color: var(--text-muted);
-    padding: 8px 14px; border-radius: 6px;
-    font-size: 0.8rem; font-weight: 600; cursor: pointer;
-    transition: all 0.2s ease;
-  }
-  #soccer-app-wrapper .btn-quick:hover {
-    border-color: var(--accent-green);
-    color: var(--text-main);
-  }
-  #soccer-app-wrapper .days-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px; margin-bottom: 24px;
-  }
-  #soccer-app-wrapper .day-column {
-    background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 16px; padding: 20px;
-  }
-  #soccer-app-wrapper .day-header {
-    font-size: 1.1rem; font-weight: 700;
-    color: var(--text-main); margin-bottom: 16px;
-    display: flex; align-items: center; justify-content: space-between;
-    border-bottom: 1px solid var(--card-border); padding-bottom: 12px;
-  }
-  #soccer-app-wrapper .time-grid {
-    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;
-  }
-  #soccer-app-wrapper .slot {
-    border-radius: 8px; 
-    padding: 12px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-    cursor: pointer; 
-    user-select: none; 
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-align: center;
-    transition: all 0.15s ease;
-  }
-  #soccer-app-wrapper .submit-container { text-align: center; }
-  #soccer-app-wrapper .btn-submit {
-    background-color: var(--accent-green);
-    color: #0f172a; border: none; padding: 16px 48px;
-    border-radius: 12px; font-size: 1.1rem; font-weight: 700;
-    cursor: pointer; width: 100%; max-width: 400px;
-    transition: background-color 0.2s ease;
-  }
-  #soccer-app-wrapper .btn-submit:hover {
-    background-color: var(--accent-green-hover);
-  }
-  #soccer-app-wrapper .toast {
-    position: fixed; bottom: 20px; right: 20px;
-    background-color: var(--accent-green); color: #0f172a;
-    padding: 16px 24px; border-radius: 12px; font-weight: 700;
-    display: none; z-index: 9999;
-  }
-  #soccer-app-wrapper .status-msg {
-    font-size: 0.85rem;
-    color: var(--accent-green);
-    margin-top: 6px;
-    display: none;
-    font-weight: 600;
-  }
-                                          </style>
-                                          <div id="soccer-app-wrapper">
-                                            <header>
-                                              <h1>
-                                                Sparks Availability
-                                              </h1>
-                                              <p style="font-size: 1rem; color: #94a3b8; margin-bottom: 0.5rem;">
-                                                Instructions:
-                                              </p>
-                                              <ul style="font-size: 1rem; color: #94a3b8; padding-left: 2rem; margin-top: 0;">
-                                                <li>
-                                                  Select your name from the drop-down list.
-                                                </li>
-                                                <li>
-                                                  Select the weekend you would like to set your availability.
-                                                </li>
-                                                <li>
-                                                  Click on each time slot you are available for the day. If viewing on mobile device, scroll down to see Sunday times.
-                                                </li>
-                                                <li>
-                                                  Repeat steps 2 and 3 for each weekend of the season.
-                                                </li>
-                                                <li>
-                                                  Once completed, scroll to the very bottom and select &#34;Submit All Weekends&#34;.
-                                                </li>
-                                              </ul>
-                                              <p style="font-size: 1rem; color: #94a3b8;">
-                                                You will be able to go back and view your selected times at any time and be able to modify them. If you modify times, you will need to &#34;Submit All Weekends&#34; again.
-                                              </p>
-                                            </header>
-                                            <div class="panel">
-                                              <div class="form-grid">
-                                                <div>
-                                                  <label for="playerSelect">
-                                                    Select Your Name
-                                                  </label>
-                                                  <select id="playerSelect">
-    <option value="" selected="selected">
-        -- Choose Name --
-    </option>
-    <option value="Baylor, Traysen">
-        Baylor, Traysen
-    </option>
-    <option value="Cannon, Myles">
-        Cannon, Myles
-    </option>
-    <option value="Carty, Jack">
-        Carty, Jack
-    </option>
-    <option value="CUFF, Donald">
-        CUFF, Donald
-    </option>
-    <option value="Gaerlan, Anthony">
-        Gaerlan, Anthony
-    </option>
-    <option value="Harris, Granville">
-        Harris, Granville
-    </option>
-    <option value="Jenkins, Ivon">
-        Jenkins, Ivon
-    </option>
-    <option value="King, Jayden">
-        King, Jayden
-    </option>
-    <option value="Konopka, Kellen">
-        Konopka, Kellen
-    </option>
-    <option value="Martin, Christian">
-        Martin, Christian
-    </option>
-    <option value="Mejia, Angel">
-        Mejia, Angel
-    </option>
-    <option value="Milton, Isaiah">
-        Milton, Isaiah
-    </option>
-    <option value="Mlinarcik, Andrew">
-        Mlinarcik, Andrew
-    </option>
-    <option value="Nicholas, Jeremiah">
-        Nicholas, Jeremiah
-    </option>
-    <option value="Nyekan, Xander">
-        Nyekan, Xander
-    </option>
-    <option value="Rose, Wesley">
-        Rose, Wesley
-    </option>
-    <option value="Scullin, Preston">
-        Scullin, Preston
-    </option>
-    <option value="Whidbee, Sylus">
-        Whidbee, Sylus
-    </option>
-    <option value="Williams, Xavier">
-        Williams, Xavier
-    </option>
-</select>
-                                                  <div id="loadingStatus" class="status-msg">
-                                                    Fetching saved choices...
-                                                  </div>
-                                                </div>
-                                                <div>
-                                                  <label for="weekendSelect">
-                                                    Select Weekend
-                                                  </label>
-                                                  <select id="weekendSelect">
-    <option value="Oct 31 - Nov 1" selected="selected">
-        Oct 31 - Nov 1
-    </option>
-    <option value="Nov 7 - Nov 8">
-        Nov 7 - Nov 8
-    </option>
-    <option value="Nov 14 - Nov 15">
-        Nov 14 - Nov 15
-    </option>
-    <option value="Nov 21 - Nov 22">
-        Nov 21 - Nov 22
-    </option>
-    <option value="Nov 28 - Nov 29">
-        Nov 28 - Nov 29
-    </option>
-    <option value="Dec 5 - Dec 6">
-        Dec 5 - Dec 6
-    </option>
-    <option value="Dec 12 - Dec 13">
-        Dec 12 - Dec 13
-    </option>
-    <option value="Dec 19 - Dec 20">
-        Dec 19 - Dec 20
-    </option>
-    <option value="Dec 26 - Dec 27">
-        Dec 26 - Dec 27
-    </option>
-    <option value="Jan 2 - Jan 3">
-        Jan 2 - Jan 3
-    </option>
-    <option value="Jan 9 - Jan 10">
-        Jan 9 - Jan 10
-    </option>
-    <option value="Jan 16 - Jan 17">
-        Jan 16 - Jan 17
-    </option>
-    <option value="Jan 23 - Jan 24">
-        Jan 23 - Jan 24
-    </option>
-    <option value="Jan 30 - Jan 31">
-        Jan 30 - Jan 31
-    </option>
-    <option value="Feb 6 - Feb 7">
-        Feb 6 - Feb 7
-    </option>
-    <option value="Feb 13 - Feb 14">
-        Feb 13 - Feb 14
-    </option>
-    <option value="Feb 20 - Feb 21">
-        Feb 20 - Feb 21
-    </option>
-    <option value="Feb 27 - Feb 28">
-        Feb 27 - Feb 28
-    </option>
-    <option value="Mar 6 - Mar 7">
-        Mar 6 - Mar 7
-    </option>
-    <option value="Mar 13 - Mar 14">
-        Mar 13 - Mar 14
-    </option>
-    <option value="Mar 20 - Mar 21">
-        Mar 20 - Mar 21
-    </option>
-    <option value="Mar 27 - Mar 28">
-        Mar 27 - Mar 28
-    </option>
-    <option value="Apr 3 - Apr 4">
-        Apr 3 - Apr 4
-    </option>
-    <option value="Apr 10 - Apr 11">
-        Apr 10 - Apr 11
-    </option>
-    <option value="Apr 17 - Apr 18">
-        Apr 17 - Apr 18
-    </option>
-    <option value="Apr 24 - Apr 25">
-        Apr 24 - Apr 25
-    </option>
-    <option value="May 1 - May 2">
-        May 1 - May 2
-    </option>
-    <option value="May 8 - May 9">
-        May 8 - May 9
-    </option>
-    <option value="May 15 - May 16">
-        May 15 - May 16
-    </option>
-    <option value="May 22 - May 23">
-        May 22 - May 23
-    </option>
-    <option value="May 29 - May 30">
-        May 29 - May 30
-    </option>
-</select>
-                                                </div>
-                                              </div>
-                                              <div class="quick-actions">
-                                                <button type="button" class="btn-quick" onclick="quickSelect(&#39;sat&#39;)">
-                                                  Select All Saturday
-                                                </button>
-                                                <button type="button" class="btn-quick" onclick="quickSelect(&#39;sun&#39;)">
-                                                  Select All Sunday
-                                                </button>
-                                                <button type="button" class="btn-quick" onclick="quickSelect(&#39;clear&#39;)">
-                                                  Clear Current Weekend
-                                                </button>
-                                              </div>
-                                            </div>
-                                            <div class="days-container">
-                                              <div class="day-column">
-                                                <div class="day-header">
-                                                  <span>                                                  Saturday
-</span>
-                                                  <small style="color: var(--text-muted); font-size: 0.8rem;">                                                  11:00 AM - 8:00 PM
-</small>
-                                                </div>
-                                                <div class="time-grid" id="satGrid">
-                                                </div>
-                                              </div>
-                                              <div class="day-column">
-                                                <div class="day-header">
-                                                  <span>                                                  Sunday
-</span>
-                                                  <small style="color: var(--text-muted); font-size: 0.8rem;">                                                  11:00 AM - 8:00 PM
-</small>
-                                                </div>
-                                                <div class="time-grid" id="sunGrid">
-                                                </div>
-                                              </div>
-                                            </div>
-                                            <div class="submit-container">
-                                              <button type="button" class="btn-submit" id="submitBtn" onclick="submitAvailability()">
-                                                Submit All Weekends
-                                              </button>
-                                            </div>
-                                            <div class="toast" id="toast">
-                                              ✓ Availability Saved Successfully!
-                                            </div>
-                                          </div>
-                                          <script>
-                                            (function() {
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbym_kjKSoz0Vzq9HGa7EO3BwZWKHIV_hqUYIL9mug-t953nPPbZ1SF5g7FpVeNc3lm_/exec";
-  const times = [
-    &#34;11:00 AM&#34;, &#34;11:30 AM&#34;, &#34;12:00 PM&#34;, &#34;12:30 PM&#34;, 
-    &#34;1:00 PM&#34;, &#34;1:30 PM&#34;, &#34;2:00 PM&#34;, &#34;2:30 PM&#34;, 
-    &#34;3:00 PM&#34;, &#34;3:30 PM&#34;, &#34;4:00 PM&#34;, &#34;4:30 PM&#34;, 
-    &#34;5:00 PM&#34;, &#34;5:30 PM&#34;, &#34;6:00 PM&#34;, &#34;6:30 PM&#34;, 
-    &#34;7:00 PM&#34;, &#34;7:30 PM&#34;, &#34;8:00 PM&#34;
-  ];
-  let storedAvailability = {};
-  function loadSavedPlayerState(playerName) {
-    if (!playerName) {
-      storedAvailability = {};
-      restoreWeekendState();
-      return;
-    }
-    const statusEl = document.getElementById(&#39;loadingStatus&#39;);
-    if (statusEl) {
-      statusEl.textContent = &#39;Fetching saved choices...&#39;;
-      statusEl.style.display = &#39;block&#39;;
-    }
-    fetch(`${SCRIPT_URL}?playerName=${encodeURIComponent(playerName)}`)
-      .then(response =&gt; response.json())
-      .then(data =&gt; {
-        let rawData = data.allWeekends || {};
-        while (typeof rawData === &#39;string&#39;) {
-          try { rawData = JSON.parse(rawData); } catch(e) { rawData = {}; break; }
-        }
-        storedAvailability = rawData;
-        restoreWeekendState();
-        if (statusEl) {
-          const count = Object.keys(storedAvailability).length;
-          statusEl.textContent = count &gt; 0 ? &#39;Loaded saved selections!&#39; : &#39;No previous choices found.&#39;;
-          setTimeout(() =&gt; { statusEl.style.display = &#39;none&#39;; }, 2500);
-        }
-      })
-      .catch(() =&gt; {
-        storedAvailability = {};
-        restoreWeekendState();
-        if (statusEl) {
-          statusEl.textContent = &#39;Ready for entry.&#39;;
-          setTimeout(() =&gt; { statusEl.style.display = &#39;none&#39;; }, 2500);
-        }
-      });
-  }
-  function setSlotState(slot, shouldSelect) {
-    if (shouldSelect) {
-      slot.setAttribute(&#39;data-selected&#39;, &#39;true&#39;);
-      slot.classList.add(&#39;selected&#39;);
-      slot.style.setProperty(&#39;background-color&#39;, &#39;#10b981&#39;, &#39;important&#39;);
-      slot.style.setProperty(&#39;border-color&#39;, &#39;#10b981&#39;, &#39;important&#39;);
-      slot.style.setProperty(&#39;color&#39;, &#39;#0f172a&#39;, &#39;important&#39;);
-      slot.style.setProperty(&#39;font-weight&#39;, &#39;700&#39;, &#39;important&#39;);
-    } else {
-      slot.setAttribute(&#39;data-selected&#39;, &#39;false&#39;);
-      slot.classList.remove(&#39;selected&#39;);
-      slot.style.setProperty(&#39;background-color&#39;, &#39;#0f172a&#39;, &#39;important&#39;);
-      slot.style.setProperty(&#39;border-color&#39;, &#39;#334155&#39;, &#39;important&#39;);
-      slot.style.setProperty(&#39;color&#39;, &#39;#f8fafc&#39;, &#39;important&#39;);
-      slot.style.setProperty(&#39;font-weight&#39;, &#39;600&#39;, &#39;important&#39;);
-    }
-  }
-  function saveCurrentWeekendState() {
-    const currentWeekend = document.getElementById(&#39;weekendSelect&#39;).value;
-    if (!currentWeekend) return;
-    const selectedSlots = [];
-    document.querySelectorAll(&#39;#soccer-app-wrapper .slot[data-selected=&#34;true&#34;]&#39;).forEach(slot =&gt; {
-      selectedSlots.push({
-        day: slot.dataset.day === &#39;Sat&#39; ? &#39;Saturday&#39; : &#39;Sunday&#39;,
-        timeSlot: slot.dataset.time
-      });
-    });
-    if (selectedSlots.length &gt; 0) {
-      storedAvailability[currentWeekend] = selectedSlots;
-    } else {
-      delete storedAvailability[currentWeekend];
-    }
-  }
-  function restoreWeekendState() {
-    const currentWeekend = document.getElementById(&#39;weekendSelect&#39;).value;
-    const savedForWeekend = storedAvailability[currentWeekend] || [];
-    document.querySelectorAll(&#39;#soccer-app-wrapper .slot&#39;).forEach(slot =&gt; {
-      const slotDayFull = slot.dataset.day === &#39;Sat&#39; ? &#39;Saturday&#39; : &#39;Sunday&#39;;
-      const slotTime = slot.dataset.time;
-      const isSaved = savedForWeekend.some(item =&gt; {
-        const itemDay = item.day === &#39;Sat&#39; ? &#39;Saturday&#39; : (item.day === &#39;Sun&#39; ? &#39;Sunday&#39; : item.day);
-        return itemDay === slotDayFull &amp;&amp; item.timeSlot === slotTime;
-      });
-      setSlotState(slot, isSaved);
-    });
-  }
-  function createSlot(day, time) {
-    const slot = document.createElement(&#39;div&#39;);
-    slot.className = &#39;slot&#39;;
-    slot.dataset.day = day;
-    slot.dataset.time = time;
-    slot.textContent = time;
-    setSlotState(slot, false);
-    slot.addEventListener(&#39;click&#39;, function(e) {
-      e.preventDefault();
-      const currentState = slot.getAttribute(&#39;data-selected&#39;) === &#39;true&#39;;
-      setSlotState(slot, !currentState);
-      saveCurrentWeekendState();
-    });
-    return slot;
-  }
-  function buildGrids() {
-    const satGrid = document.getElementById(&#39;satGrid&#39;);
-    const sunGrid = document.getElementById(&#39;sunGrid&#39;);
-    if (!satGrid || !sunGrid) return;
-    satGrid.innerHTML = &#39;&#39;;
-    sunGrid.innerHTML = &#39;&#39;;
-    times.forEach(time =&gt; {
-      satGrid.appendChild(createSlot(&#39;Sat&#39;, time));
-      sunGrid.appendChild(createSlot(&#39;Sun&#39;, time));
-    });
-  }
-  window.quickSelect = function(type) {
-    const slots = document.querySelectorAll(&#39;#soccer-app-wrapper .slot&#39;);
-    slots.forEach(slot =&gt; {
-      const day = slot.dataset.day;
-      if (type === &#39;clear&#39;) {
-        setSlotState(slot, false);
-      } else if (type === &#39;sat&#39; &amp;&amp; day === &#39;Sat&#39;) {
-        setSlotState(slot, true);
-      } else if (type === &#39;sun&#39; &amp;&amp; day === &#39;Sun&#39;) {
-        setSlotState(slot, true);
-      }
-    });
-    saveCurrentWeekendState();
-  };
-  window.submitAvailability = function() {
-    const player = document.getElementById(&#39;playerSelect&#39;).value;
-    if (!player) {
-      alert(&#39;Please select your name before submitting.&#39;);
-      return;
-    }
-    saveCurrentWeekendState();
-    if (Object.keys(storedAvailability).length === 0) {
-      alert(&#39;Please select availability for at least one weekend before submitting.&#39;);
-      return;
-    }
-    const btn = document.getElementById(&#39;submitBtn&#39;);
-    btn.disabled = true;
-    btn.textContent = &#39;Saving All...&#39;;
-    const params = new URLSearchParams();
-    params.append(&#39;playerName&#39;, player);
-    params.append(&#39;allWeekends&#39;, JSON.stringify(storedAvailability));
-    fetch(SCRIPT_URL, {
-      method: &#39;POST&#39;,
-      mode: &#39;no-cors&#39;,
-      headers: { &#39;Content-Type&#39;: &#39;application/x-www-form-urlencoded&#39; },
-      body: params.toString()
-    })
-    .then(() =&gt; {
-      showToast();
-      btn.disabled = false;
-      btn.textContent = &#39;Submit All Weekends&#39;;
-    })
-    .catch(() =&gt; {
-      alert(&#39;An error occurred. Please try again.&#39;);
-      btn.disabled = false;
-      btn.textContent = &#39;Submit All Weekends&#39;;
-    });
-  };
-  function showToast() {
-    const toast = document.getElementById(&#39;toast&#39;);
-    toast.style.display = &#39;block&#39;;
-    setTimeout(() =&gt; { toast.style.display = &#39;none&#39;; }, 3000);
-  }
-  function init() {
-    buildGrids();
-    const weekendSelect = document.getElementById(&#39;weekendSelect&#39;);
-    if (weekendSelect) {
-      weekendSelect.addEventListener(&#39;change&#39;, function() {
-        restoreWeekendState();
-      });
-    }
-    const playerSelect = document.getElementById(&#39;playerSelect&#39;);
-    if (playerSelect) {
-      playerSelect.addEventListener(&#39;change&#39;, function() {
-        loadSavedPlayerState(this.value);
-      });
-    }
-  }
-  if (document.readyState === &#39;loading&#39;) {
-    document.addEventListener(&#39;DOMContentLoaded&#39;, init);
-  } else {
-    init();
-  }
-})();
-                                          </script>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </section>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="dmFooterContainer flex_hfcontainer">
-                      <div id="flex-footer" data-hidden-on-desktop="true" data-hidden-on-tablet="true" data-hidden-on-mobile="true" role="contentinfo">
-                        <div data-layout-section="" data-auto="flex-section" id="1393338882" data-flex-id="a314fff3">
-                          <div class="flex-widgets-container" id="1605085119">
-                          </div>
-                          <section id="ca8289e6" class="flex-element section" data-auto="flex-element-section">
-                            <div id="65eae818" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="">
-                              <div id="7defd335" class="flex-element group" data-auto="flex-element-group">
-                                <div id="2fd88d0c" class="flex-element group" data-auto="flex-element-group">
-                                  <div id="group_1r3" class="flex-element group" data-auto="flex-element-group">
-                                    <div id="group_ika" class="flex-element group" data-auto="flex-element-group">
-                                      <div id="e009cfd2" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1962851057">
-                                        <div class="imageWidget align-center u_1962851057" data-element-type="image" data-widget-type="image" id="1962851057" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ==">
-                                          <a href="/" id="1937080854">                                          <img src="https://irp.cdn-website.com/93bdc31b/dms3rep/multi/opt/WTYSA_Logo_500px-1920w.png" alt="" id="1464491957" class="" data-dm-image-path="https://irp.cdn-website.com/93bdc31b/dms3rep/multi/WTYSA_Logo_500px.png" width="414" height="415" data-diy-image="" onerror="handleImageLoadError(this)" />
-</a>
-                                        </div>
-                                      </div>
-                                      <div id="widget_ocg" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="2965277863">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="2965277863" style="">
-                                          <p class="m-text-align-left text-align-left">
-                                            New Paragraph
-                                          </p>
-                                        </div>
-                                      </div>
-                                      <div id="widget_l34" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="socialhub" data-external-id="83995905">
-                                        <div class="align-center text-align-center u_83995905 dmSocialHub gapSpacing" id="83995905" dmle_extension="social_hub" data-element-type="social_hub" data-binding="W3siYmluZGluZ05hbWUiOiJzb2NpYWwiLCJ2YWx1ZSI6ImNvbnRlbnRfbGlicmFyeS5nbG9iYWwuc29jaWFsIn1d" wr="true" networks="" icon="true" surround="true" adwords="">
-                                          <div class="socialHubWrapper">
-                                            <div class="socialHubInnerDiv " data-auto="social-hub-inner">
-                                              <a aria-label="facebook" dm_dont_rewrite_url="true" href="https://facebook.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Facebook&#39;)" target="_blank">                                              <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span>
-</a>
-                                              <a aria-label="twitter" dm_dont_rewrite_url="true" href="https://twitter.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Twitter&#39;)" target="_blank">                                              <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span>
-</a>
-                                              <a aria-label="instagram" dm_dont_rewrite_url="true" href="https://instagram.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Instagram&#39;)" target="_blank">                                              <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span>
-</a>
-                                              <a aria-label="youtube" dm_dont_rewrite_url="true" href="https://youtube.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Youtube&#39;)" target="_blank">                                              <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span>
-</a>
-                                              <a aria-label="linkedin" dm_dont_rewrite_url="true" href="https://linkedin.com/test" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&#39;socialLink&#39;, &#39;click&#39;, &#39;Linkedin&#39;)" target="_blank">                                              <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style8" aria-hidden="true" data-hover-effect=""></span>
-</a>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div id="group_ms9" class="flex-element group" data-auto="flex-element-group">
-                                      <div id="widget_ivh" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="2939619599">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="2939619599" style="">
-                                          <h5>
-                                            <span style="display: unset; color: var(--color_2);">                                            QUICK LINKS
-</span>
-                                          </h5>
-                                        </div>
-                                      </div>
-                                      <div id="widget_nrb" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="3108882248">
-                                        <div class="dmNewParagraph u_3108882248" data-element-type="paragraph" data-version="5" id="3108882248" style="">
-                                          <ul class="defaultList custom-list-4">
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/" m-font-size-set="true" runtime_url="/" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Home
-</a>
-                                            </li>
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/about" m-font-size-set="true" runtime_url="/about" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              About Us
-</a>
-                                            </li>
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/registration" m-font-size-set="true" runtime_url="/registration" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Registration
-</a>
-                                            </li>
-                                            <li class="text-align-left m-text-align-left m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/facilities" m-font-size-set="true" runtime_url="/facilities" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Facilities
-</a>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div id="616e2843" class="flex-element group" data-auto="flex-element-group" data-hidden-on-desktop="">
-                                      <div id="ab9046b2" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1038574240">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1038574240" style="">
-                                          <h5>
-                                            <span style="display: unset;">                                            Sports
-</span>
-                                          </h5>
-                                        </div>
-                                      </div>
-                                      <div id="6ccc8f82" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1572476690">
-                                        <div class="u_1572476690 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1572476690" style="">
-                                          <ul class="defaultList custom-list-4">
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/soccer" m-font-size-set="true" runtime_url="/soccer" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Soccer
-</a>
-                                            </li>
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/baseball" m-font-size-set="true" runtime_url="/baseball" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Baseball
-</a>
-                                            </li>
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/basketball" m-font-size-set="true" runtime_url="/basketball" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Basketball
-</a>
-                                            </li>
-                                            <li class="m-size-14" style="color: rgb(255, 255, 255);">
-                                              <a class="m-font-size-14" href="/volleyball" m-font-size-set="true" runtime_url="/volleyball" style="display: unset; color: rgb(255, 255, 255);" type="page">                                              Volleyball
-</a>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div id="e10e4b1b" class="flex-element group" data-auto="flex-element-group">
-                                      <div id="c42a72a4" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1909381416">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1909381416" style="">
-                                          <h5>
-                                            <span style="display: unset; color: var(--color_2);">                                            Contact information
-</span>
-                                          </h5>
-                                        </div>
-                                      </div>
-                                      <div id="3f6f5642" class="flex-element group" data-auto="flex-element-group">
-                                        <div id="34b81bc6" class="flex-element group" data-auto="flex-element-group">
-                                          <div id="d375d7b7" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="graphic" data-keep-proportion="true" data-external-id="1931679273">
-                                            <div class="graphicWidget graphicWidgetV2 graphicWidgetV3 u_1931679273" data-element-type="graphic" data-widget-type="graphic" id="1931679273">
-                                              <svg width="100%" height="100%" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" id="1038892644" class="svg u_1038892644" data-icon-custom="true">
-                                                <path d="m19.738 57.531l0.17969 0.26172c0.21875 0.32812 0.44922 0.64844 0.67969 1l26.062 37.438c0.76172 1.0938 2.0078 1.7422 3.3398 1.7422s2.5781-0.64844 3.3398-1.7422l26-37.41c0.25-0.35156 0.48828-0.69141 0.73047-1l0.16016-0.23828v-0.003906c4.707-7.2812 6.625-16.016 5.4062-24.602-1.2188-8.5859-5.4961-16.441-12.043-22.125-6.5469-5.6836-14.93-8.8125-23.598-8.8125-8.6719 0-17.051 3.1289-23.598 8.8125-6.5508 5.6836-10.828 13.539-12.047 22.125-1.2188 8.5859 0.70313 17.32 5.4102 24.602zm30.262-34.473c3.9766 0 7.793 1.582 10.605 4.3945s4.3945 6.6289 4.3945 10.605c0 3.9805-1.582 7.7969-4.3945 10.609s-6.6289 4.3906-10.605 4.3906-7.793-1.5781-10.605-4.3906-4.3945-6.6289-4.3945-10.609c0-3.9766 1.582-7.793 4.3945-10.605s6.6289-4.3945 10.605-4.3945z">
-                                                </path>
-                                              </svg>
-                                            </div>
-                                          </div>
-                                          <div id="bf5de9ea" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1373800043">
-                                            <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1373800043" style="" new-inline-bind-applied="true" data-diy-text="">
-                                              <p>
-                                                <span style="display: initial; color: var(--color_3);">                                                <span class="inline-data-binding" data-encoded-value="MTIzIFNwb3J0cyBDb21wbGV4IFdheSwgQ2l0eXZpbGxlLCBTVCAxMjM0NQ==" data-inline-binding="site_text.address" data-inline-binding-encoded="c2l0ZV90ZXh0LmFkZHJlc3M=">                                                123 Sports Complex Way, Cityville, ST 12345
-</span>
-</span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div id="37e11ac9" class="flex-element group" data-auto="flex-element-group">
-                                          <div id="b55a8f72" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-keep-proportion="true" data-widget-type="graphic" data-external-id="1675166173">
-                                            <div class="graphicWidget graphicWidgetV2 graphicWidgetV3 u_1675166173" data-element-type="graphic" data-widget-type="graphic" id="1675166173">
-                                              <svg width="100%" height="100%" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" id="1101671195" class="svg u_1101671195" data-icon-custom="true" data-icon-name="envelope_8149096.svg">
-                                                <path d="m11.148 26.328 38.852 38.852 38.852-38.852zm-1.1484 1.1523v45.039l22.52-22.52zm80 0-22.52 22.52 22.52 22.52zm-56.328 23.68-22.52 22.52h77.691l-22.52-22.52-15.75 15.75c-0.14844 0.14844-0.35938 0.23828-0.57812 0.23828s-0.42188-0.089844-0.57812-0.23828l-15.75-15.75z">
-                                                </path>
-                                              </svg>
-                                            </div>
-                                          </div>
-                                          <div id="9c7fc1b7" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1379201708">
-                                            <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1379201708" style="" new-inline-bind-applied="true" data-diy-text="">
-                                              <p>
-                                                <span style="display: initial; color: var(--color_3);">                                                <span class="inline-data-binding" data-encoded-value="eW91cmVtYWlsQGVtYWlsLmNvbQ==" data-inline-binding="content_library.global.email.email" data-inline-binding-encoded="Y29udGVudF9saWJyYXJ5Lmdsb2JhbC5lbWFpbC5lbWFpbA==">                                                <a class="inlineBindingLink" href="mailto:youremail@email.com" target="_blank">                                                youremail@email.com
-</a>
-</span>
-</span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div id="f427c39b" class="flex-element group" data-auto="flex-element-group">
-                                          <div id="825d9069" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-keep-proportion="true" data-widget-type="graphic" data-external-id="1139870345">
-                                            <div class="graphicWidget graphicWidgetV2 graphicWidgetV3 u_1139870345" data-element-type="graphic" data-widget-type="graphic" id="1139870345">
-                                              <svg width="100%" height="100%" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" id="1081031182" class="svg u_1081031182" data-icon-custom="true" data-icon-name="Telephone_8143711.svg">
-                                                <path d="m11.602 11.602h20.32l6.6016 18.926-7.9453 8.6406c6.793 13.844 16.41 23.461 30.258 30.254l8.6406-7.9453 18.922 6.6016v20.32c-43.086 0-76.797-33.711-76.797-76.797z" fill-rule="evenodd">
-                                                </path>
-                                              </svg>
-                                            </div>
-                                          </div>
-                                          <div id="d58a00fe" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1446951527">
-                                            <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1446951527" style="" new-inline-bind-applied="true" data-diy-text="">
-                                              <p>
-                                                <span style="display: initial; color: var(--color_3);">                                                <span class="inline-data-binding" data-encoded-value="KDAwMCkgMDAwLTAwMDA=" data-inline-binding="content_library.global.phone.phone" data-inline-binding-encoded="Y29udGVudF9saWJyYXJ5Lmdsb2JhbC5waG9uZS5waG9uZQ==">                                                <a class="inlineBindingLink" href="tel:(000) 000-0000" target="_blank">                                                (000) 000-0000
-</a>
-</span>
-</span>
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div id="group_llp" class="flex-element group" data-auto="flex-element-group">
-                                    <div id="widget_dou" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="2407785144">
-                                      <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="2407785144" style="">
-                                        <p class="m-text-align-center text-align-left t-size-12 m-size-12 size-12">
-                                          <span class="font-size-12 t-font-size-12 m-font-size-12" style="display: unset; color: rgb(81, 107, 130);">                                          © 2026 CityRec Sports Association | Powered by TeamSnap ONE
-</span>
-                                        </p>
-                                      </div>
-                                    </div>
-                                    <div id="group_ddm" class="flex-element group" data-auto="flex-element-group">
-                                      <div id="b316a51a" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1096717546">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1096717546" style="">
-                                          <p class="m-size-12 t-size-12 text-align-right m-text-align-center size-12">
-                                            <a class="m-font-size-12 t-font-size-12 font-size-12" href="/privacy-policy" runtime_url="/privacy-policy" style="display: unset; color: rgb(81, 107, 130);" type="page">                                            Privacy Policy
-</a>
-                                          </p>
-                                        </div>
-                                      </div>
-                                      <div id="b2b019a1" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1903426857">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1903426857" style="">
-                                          <p class="t-size-12 m-size-12 text-align-right m-text-align-center size-12">
-                                            <a class="font-size-12 t-font-size-12 m-font-size-12" href="/terms-of-service" runtime_url="/terms-of-service" style="display: unset; color: rgb(81, 107, 130);" type="page">                                            Terms of Service
-</a>
-                                          </p>
-                                        </div>
-                                      </div>
-                                      <div id="b6c76a44" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1220370649">
-                                        <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1220370649" style="">
-                                          <p class="m-text-align-center text-align-right m-size-12 t-size-12 size-12">
-                                            <a class="m-font-size-12 t-font-size-12 font-size-12" href="/code-of-conduct" runtime_url="/code-of-conduct" style="color: rgb(81, 107, 130); display: unset;" type="page">                                            Code of Conduct
-</a>
-                                          </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile_implicit-flex-header-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-}
-    </style>
-    <style data-page-uuid="6246f6cbe7b74d8982831baa9ea7e244" id="grid-styles-mobile-63d24979f4a54e38542a8ab9-6246f6cbe7b74d8982831baa9ea7e244">
-      @media (max-width: 767px) {
-    
-#\36 3d24979f4a54e38542a8abd {
-    min-height: 80px;
-    align-items: center;
-    width: 100%;
-}
-    
-#\36 3d24979f4a54e38542a8abc {
-    min-height: 0;
-    flex-direction: column;
-    padding-left: 4%;
-    padding-right: 4%;
-    flex-wrap: nowrap;
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-flex-footer-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#flex-footer {
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-flex-header-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#flex-header {
-    
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-e670e98b-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#\37 ed68104 {
-    width: 82%;
-    align-items: center;
-}
-    
-#aa0b37e4 {
-    background-color: rgba(49, 49, 49, 1);
-}
-    
-#\38 8c8086a {
-    flex-direction: row;
-    padding-left: 4%;
-    padding-right: 4%;
-    flex-wrap: nowrap;
-    min-height: 5px;
-}
-    
-#c8a0971b {
-    width: 100.00%;
-}
-    
-#f929d175 {
-    align-items: center;
-    width: 18%;
-}
-    
-#a0e5dae8 {
-    width: 82%;
-    align-items: center;
-    min-height: 8px;
-    justify-content: center;
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-9a771e41-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#\36 2c69e7f {
-    width: 25%;
-    order: 0;
-    justify-content: flex-start;
-}
-    
-#\36 568df63 {
-    width: 32px;
-    height: 32px;
-}
-    
-#\31 72267d7 {
-    padding-left: 2%;
-    padding-right: 12%;
-    min-height: 13px;
-}
-    
-#b96d6d9e {
-    width: 110px;
-    height: auto;
-}
-    
-#f5b344d2 {
-    width: 59.58%;
-    justify-content: center;
-    order: 1;
-}
-    
-#cf84841a {
-    width: 15%;
-    order: 2;
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-18f5ea00-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#\39 d047ce9 {
-    width: 100%;
-    min-height: 62px;
-    height: auto;
-    padding-bottom: 6px;
-}
-    
-#a1f8711f {
-    min-height: unset;
-    flex-direction: column;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 4%;
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-63a049320d35b55b4ef2a372-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#\36 3a049320d35b55b4ef2a374 {
-    min-height: 535px;
-    justify-content: center;
-    padding-top: 16px;
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
-    
-#\36 3a049320d35b55b4ef2a377 {
-    min-height: unset;
-    flex-direction: column;
-    padding: 4% 4% 4% 4%;
-}
-    
-#\36 3a049ca0d35b55b4ef2a5c3 {
-    margin-left: 0px;
-    margin-right: 0px;
-    order: 1;
-}
-    
-#\30 d90f7cf {
-    width: 72px;
-    height: auto;
-    order: 0;
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-6406026c90e1521f6ecb0eca-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#\36 406026c90e1521f6ecb0ecd {
-    min-height: 206px;
-    justify-content: center;
-    padding-bottom: 16px;
-    width: 100%;
-    height: auto;
-}
-    
-#\36 406026c90e1521f6ecb0ecc {
-    min-height: unset;
-    flex-direction: column;
-    padding: 4% 4% 4% 4%;
-}
-}
-    </style>
-    <style data-page-uuid="0deebc9b7c8541ceb1d0d1d817280a8b" data-is-header="true" id="grid-styles-mobile-a314fff3-0deebc9b7c8541ceb1d0d1d817280a8b">
-      @media (max-width: 767px) {
-    
-#\32 fd88d0c {
-    width: 100%;
-    align-items: center;
-    min-height: 8px;
-}
-    
-#\37 defd335 {
-    flex-direction: row;
-    padding-left: 4%;
-    padding-right: 4%;
-    flex-wrap: nowrap;
-    min-height: 80px;
-}
-    
-#e009cfd2 {
-    width: 85px;
-    height: auto;
-}
-    
-#group_1r3 {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    row-gap: 5px;
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#group_ika {
-    min-width: 32px;
-    width: 100.00%;
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#group_ms9 {
-    min-width: 32px;
-    width: 100.00%;
-    row-gap: 12px;
-    min-height: auto;
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#e10e4b1b {
-    min-width: 32px;
-    width: 100.00%;
-    row-gap: 12px;
-    min-height: auto;
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#group_llp {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    row-gap: 12px;
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#b316a51a {
-    min-width: 32px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#b2b019a1 {
-    min-width: 32px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#b6c76a44 {
-    min-width: 32px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#\36 16e2843 {
-    min-width: 32px;
-    width: 100.00%;
-    row-gap: 12px;
-    min-height: auto;
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#widget_ocg {
-    width: 100.00%;
-}
-    
-#widget_dou {
-    min-width: 32px;
-    margin: 0px 0% 0px 0%;
-}
-    
-#group_ddm {
-    min-width: 32px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100.00%;
-    row-gap: 12px;
-    align-items: center;
-    margin: 0px 0% 0px 0%;
-}
-}
-    </style>
-    <script type="text/javascript" id="d_track_sp">
-      ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-        p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-        };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-        n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,&#34;script&#34;,&#34;//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js&#34;,&#34;snowplow&#34;));
-    window.dmsnowplow  = window.snowplow;
-
-    dmsnowplow(&#39;newTracker&#39;, &#39;cf&#39;, &#39;d32hwlnfiv2gyn.cloudfront.net&#39;, { // Initialise a tracker
-        appId: &#39;93bdc31b&#39;
-    });
-
-    // snowplow queries element styles so we wait until CSS calculations are done.
-    requestAnimationFrame(() =&gt; {
-        dmsnowplow(&#39;trackPageView&#39;);
-        _dm_insite.forEach((rule) =&gt; {
-            // Specifically in popup only the client knows if it is shown or not so we don&#39;t always want to track its impression here
-            // the tracking is in popup.js
-            if (rule.actionName !== &#34;popup&#34;) {
-                dmsnowplow(&#39;trackStructEvent&#39;, &#39;insite&#39;, &#39;impression&#39;, rule.ruleType, rule.ruleId);
-            }
-            window?.waitForDeferred?.(&#39;dmAjax&#39;, () =&gt; {
-                $.DM.events.trigger(&#39;event-ruleTriggered&#39;, {value: rule});
-            });
-        });
-    });
-    </script>
-    <div style="display:none;" id="P6iryBW0Wu">
-    </div>
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="pswp__bg">
-      </div>
-      <div class="pswp__scroll-wrap">
-        <div class="pswp__container">
-          <div class="pswp__item">
-          </div>
-          <div class="pswp__item">
-          </div>
-          <div class="pswp__item">
-          </div>
-        </div>
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <div class="pswp__counter">
-            </div>
-            <button class="pswp__button pswp__button--close" data-auto="pswp-close" title="Close (Esc)">
-            </button>
-            <button class="pswp__button pswp__button--share" data-auto="pswp-share" title="Share">
-            </button>
-            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen">
-            </button>
-            <button class="pswp__button pswp__button--zoom" title="Zoom in/out">
-            </button>
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-            <div class="pswp__share-tooltip">
-            </div>
-          </div>
-          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-          </button>
-          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-          </button>
-          <div class="pswp__caption">
-            <div class="pswp__caption__center">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="fb-root" data-locale="en">
-    </div>
-    <!-- Alias: 93bdc31b -->
-    <script id="d_track_personalization">
-      window?.waitForDeferred?.(&#39;dmAjax&#39;, () =&gt; {
-		// Collects client data and updates cookies used by smart sites
-		window.expireDays = 365;
-		window.visitLength = 30 * 60000;
-		$.setCookie(&#34;dm_timezone_offset&#34;, (new Date()).getTimezoneOffset(), window.expireDays);
-			setSmartSiteCookiesInternal(&#34;dm_this_page_view&#34;,&#34;dm_last_page_view&#34;,&#34;dm_total_visits&#34;,&#34;dm_last_visit&#34;);
-	});
-    </script>
-    <script type="text/javascript">
-      Parameters.NavigationAreaParams.MoreButtonText = &#39;MORE&#39;;
-    
-    Parameters.NavigationAreaParams.LessButtonText = &#39;LESS&#39;;
-    </script>
-    <!--  Site Wide Html Markup -->
-    <!--  Site Wide Html Markup -->
-  </body>
-</html>
+                                              <a class="unifiednav__item unav-item   dmUDNavigationItem_010101955152  " data-target-page-alias="" href="/volleyball" target
